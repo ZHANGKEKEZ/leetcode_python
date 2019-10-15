@@ -8,6 +8,6 @@ class Solution:
             #这里的不等于空很关键，遇到//时，split是把两个/之间当作""存储的
             if path!='.'and path!='..'and path!='':
                 res.append(path)
-        
+        #注意字符串join函数的用法
         r="/"+"/".join(res)
         return r
