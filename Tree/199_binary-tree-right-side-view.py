@@ -11,6 +11,7 @@ class Solution:
         res=[]
         if not root:
             return []
+        #用层次遍历去做
         while queue:
             lenth=len(queue)
             level=[]
